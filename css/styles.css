@@ -1,0 +1,137 @@
+/*-----------------------------------------------------------*/
+
+h1,
+h3,
+nav {
+    font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*-----------------------------------------------------------*/
+
+header {
+    background-color: #e8ffe8;
+    padding-top: 20px;
+    min-height: 70px;
+    padding-bottom: 20px;
+    border-bottom: #e8ffe8 5px solid;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+header #ravi {
+    font-size: 24px;
+    float: left;
+}
+
+header #ravi h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 60px;
+}
+
+header a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+
+/*-----------------------------------------------------------*/
+
+section,
+#hook {
+    background-color: #a6fff2;
+}
+
+#myPic {
+    width: 300px;
+    height: 400px;
+    border: #a6fff2 4px solid;
+}
+
+#hook,
+h1,
+img,
+p {
+    text-align: center;
+}
+
+#hook p {
+    text-align: justify;
+}
+
+section h1 {
+    font-size: 30px;
+}
+
+
+/*-----------------------------------------------------------*/
+
+section,
+#content {
+    background-color: #74f9ff;
+}
+
+
+/*-----------------------------------------------------------*/
+
+footer {
+    background-color: #e8ffe8;
+    align-content: center;
+}
+
+footer #subscription {
+    float: right;
+}
+
+footer #handles {
+    float: left;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+footer #handles #github {
+    margin-right: 10px;
+}
+
+footer #handles #ig {
+    margin-left: 10px;
+}
+
+footer #inputForm {
+    padding-top: 2px;
+}
+
+footer #inputForm {
+    font-family: 'Josefin Sans', sans-serif;
+}

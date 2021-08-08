@@ -1,0 +1,153 @@
+h1,
+h3,
+nav {
+    font-family: 'Amatic SC', cursive;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container2 {
+    width: 100%;
+    margin: auto;
+}
+
+.sidebar {
+    width: 26%;
+    overflow: hidden;
+    margin-left: 0;
+    float: left;
+    background: #ffd7e9;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebarCore {
+    margin-left: 0;
+}
+
+#content {
+    width: 72%;
+    overflow: hidden;
+    margin-left: 0;
+    float: right;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+/*----------------------------------------------------*/
+
+header {
+    background-color: #fff8d2;
+    padding-top: 20px;
+    min-height: 70px;
+    padding-bottom: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+header #ravi {
+    font-size: 24px;
+    float: left;
+}
+
+header #ravi h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 60px;
+}
+
+header a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/*------------------------------------------------*/
+
+section,
+#content {
+    background-color: #fff8d2;
+}
+
+
+/*------------------------------------------------*/
+
+footer {
+    background-color: #fff8d2;
+    align-content: center;
+}
+
+footer #subscription {
+    float: right;
+}
+
+footer #handles {
+    float: left;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+footer #handles #github {
+    margin-right: 10px;
+}
+
+footer #handles #ig {
+    margin-left: 10px;
+}
+
+footer #inputForm {
+    padding-top: 2px;
+}
+
+footer #inputForm {
+    /*font-family: 'Josefin Sans', sans-serif;*/
+}

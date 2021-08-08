@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysite
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mysite
+  template:
+    metadata:
+      labels:
+        app: mysite
+    spec:
+      containers:
+      - name: mysite
+        image: ravihidayat/mysite:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
