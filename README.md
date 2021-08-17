@@ -7,6 +7,10 @@ A simple, static portfolio website that tells a bit of who I am, built with HTML
 While this was made during the second semester of my study in Universiti Teknologi Malaysia, this static site
 is currently being used for AWS learning purposes. This static site has been deployed in multiple services:
 
+# Disclaimer
+
+All links below are inaccessible, since I had to delete all of them for the sole purpose of not getting beyond the free tier limit.
+
 ## EC2 and S3
 
 Hosted in an RHEL 8 instance, with HTTPD as the web server.
